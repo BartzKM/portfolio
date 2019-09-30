@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>KatePortfolio</title>
+    </head>
+    <body bgcolor="lavendar">
+        <img src="images/MNWinter.png"> <br>
+        <a href="portfolio/index.html"> Home Page </a> 
+    </body>
+</html>
