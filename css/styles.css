@@ -60,3 +60,17 @@ h6 {
     border-style: solid;
     background-color: #414141;
 }
+.projectlinks {
+    position: relative;
+    width: 15%;
+    margin: 1rem;
+    padding: 2rem;
+    color: #414141;
+    font-size: 1rem;
+    text-align: center;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: #414141;
+    border-style: solid;
+    background-color: aliceblue;
+}
