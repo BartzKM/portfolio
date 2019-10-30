@@ -73,4 +73,26 @@ h6 {
     border-color: #414141;
     border-style: solid;
     background-color: aliceblue;
+    text-align: wrap;
+}
+
+#projects {
+    position: relative;
+    width: 85%;
+    margin: 1rem;
+    padding: 2rem;
+    color: black;
+    font-size: 1rem;
+    text-align: center;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: aliceblue;
+    border-style: solid;
+    background-color: aliceblue;
+    text-align: wrap;
+}
+
+.pictures {
+    position: relative;
+    align-content: right;
 }
