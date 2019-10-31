@@ -75,14 +75,8 @@ h6 {
     border-style: solid;
     background-color: lightsteelblue;
     text-align: wrap;
+    float: left;
 }
 
-#projects {
-    width: 80%;
-    float: right;
-}
 
-.pictures {
-    float: right;
-}
 
