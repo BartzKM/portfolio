@@ -77,6 +77,13 @@ h6 {
     text-align: wrap;
     float: left;
 }
-
-
-
+.parent{
+    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+.child1 {
+    display: flex;
+    flex-flow: row nowrap;
+}

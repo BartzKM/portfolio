@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lightning</title>
+    <link rel="stylesheet" type="text/css" href="../../css/styles.css">
+    
+    <script src="../libraries/p5.js"></script>
+    <script src="../addons/p5.dom.js"></script>
+    <script src="../addons/p5.sound.js"></script>
+    <script src="sketch.js"></script>
+</head>
+<header> 
+    <div class="navbar"> 
+        <img src="../../images/pool.png" id=bannerimg> <br>
+        <a href="../../index.html">Home </a>
+        <a href="../../pages/projects.html">Projects </a> 
+        <a href="../../pages/aboutMe.html">About Me </a>
+        <a href="../../pages/references.html">References </a>
+    </div>
+</header>
+
+<body bgcolor="aliceblue">
+    <h1>Starfield!</h1>
+    <div class="parent">
+    <div class="box">
+         I first created starfield using Processing by writing it in java. When I finished it, I transferred the code into Brackets and changed the language into javascript. For my starfield project, I created an area of Particles from a Particle interface. I created two classes that implemented Particle, JumboParticle and NormalParticle. JumboParticle extends NormalParticle. In the NormalParticle class, a spiral star is created with a random color, and in the JumboParticle class, a large particle spirals off of the screen. Using my array, I created three NormalParticle followed by one JumboParticle. A new Particle is created when the previous particle leaves the screen. This process repeats continuously. The hardest part about this project was converting the code from java to javascript because the interface code would not compile. To solve this problem, I removed the interface in javascript and instead created multiple arrays
+    </div>
+    <div class="child2" id="sketch-div"></div>
+    </div>
+</body></html>

@@ -5,7 +5,8 @@ var yincreasing=true;
 var num=1;
 var b=new Array();
 function setup() {
-  createCanvas(600,600);
+  var canvas = createCanvas(600,600);
+  canvas.parent('sketch-div');
   background(0);
 }
 function draw() {

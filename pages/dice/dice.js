@@ -3,7 +3,8 @@ var wins=0;
 var loses=0;
 
 function setup() {
-	createCanvas(600, 600);
+	var canvas = createCanvas(600,600);
+    canvas.parent('sketch-div');
 	noLoop();
 }
 

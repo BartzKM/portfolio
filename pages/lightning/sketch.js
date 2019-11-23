@@ -5,7 +5,8 @@ var endY=300;
 var angle=0;
 var hammer;
 function setup() {
-    createCanvas(600,600);
+    var canvas = createCanvas(600,600);
+    canvas.parent('sketch-div');
     strokeWeight(5);
     background(0);
     hammer = loadImage("data/thorHammer.png");
