@@ -79,10 +79,10 @@ h6 {
 }
 .parent{
     position: relative;
-    display: flex;
     flex-flow: row nowrap;
-    justify-content: space-evenly;
+    align-content: center;
 }
+
 .child1 {
     display: flex;
     flex-flow: row nowrap;

@@ -10,11 +10,12 @@
         <a href="../index.html">Home </a>
         <a href="../pages/projects.html">Projects </a> 
         <a href="../pages/aboutMe.html">About Me </a>
-        <a href="../pages/references.html">References </a>
+        <a href="../pages/picturesOfMe.html">Pictures of Me </a>
         </div>
     </header>
     <body bgcolor="aliceblue">
             <h1>Projects</h1>
+            <div class=parent>
             <div class="parent">
             <div class=projectlinks>
             <a href="gimpFinalProject.html">Picture Collage</a> <br> <br>
@@ -24,8 +25,17 @@
             <a href="starfield/index.html">Starfield</a> <br> <br>
             <br><br><br>
             </div>
-            <div id=projects>
             This page will contain all of the projects that I will make throughout the year. By clicking on the links to the left, all of the projects can be accessed along with an explanation of the code and the applications used to create it. 
+            <h2>Picture Collage </h2>
+                This was the final project I created using gimp. It is a picture collage of some of the things I did over the summer. All of the pictures were taken by me, and I used gimp to put them together.
+            <h2>Lightning </h2> 
+                I first created lightning using Processing and writing it in java. When I finished it, I transferred the code into Brackets and changed the language into javascript. For my lightning project, I created random lines of lightning that come out of Thor's Hammer whenever the hammer is at position zero, or facing downward like it is hitting something. The hardest thing for me during this project was getting the image to rotate correctly and have lightning come out of the correct spot.
+            <h2>Dice </h2>
+                I first created dice using Processing by writing it in java. When I finished it, I transferred the code into Brackets and changed the language into javascript. For my dice project, I used Object Oriented Programming to create many instances of dice. I created a dice class where I coded how the dice look. I then used Math.random() to determine what number (1-6) would appear on the die. Next, I made these dice randomly roll and calculated a total. The goal of the game is to have the dice total reach more than 65 or less than 40. By clicking anywhere on the screen, the dice are rolled again for another chance to win. Everytime the game is played, the number of wins and loses are recorded.
+            <h2>Chemotaxis </h2>
+                Chemotaxis is the movement of cells or bacteria. For this project, I created an array of bacteria that moved in random patterns around the screen. The amount of bacteria is multiplied each time the multiply button is pressed. When the restart button is pressed, the amount of bacteria is set back to its original amount. The hardest part about this project was converting the java code into javascript because ArrayLists is not a javascript function. To solve this problem, I used an array instead. 
+            <h2>Starfield </h2>
+                I first created starfield using Processing by writing it in java. When I finished it, I transferred the code into Brackets and changed the language into javascript. For my starfield project, I created an area of Particles from a Particle interface. I created two classes that implemented Particle, JumboParticle and NormalParticle. JumboParticle extends NormalParticle. In the NormalParticle class, a spiral star is created with a random color, and in the JumboParticle class, a large particle spirals off of the screen. Using my array, I created three NormalParticle followed by one JumboParticle. A new Particle is created when the previous particle leaves the screen. This process repeats continuously. The hardest part about this project was converting the code from java to javascript because the interface code would not compile. To solve this problem, I removed the interface in javascript and instead created multiple arrays.
         </div>
         </div>
     </body>
